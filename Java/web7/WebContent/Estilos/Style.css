@@ -1,0 +1,40 @@
+/*
+    Creando Tablas con CSS
+*/
+
+h1 {
+    text-align: center;
+      color: #1578e1;
+      
+   
+}
+
+
+table {
+    margin-top: 50px;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+caption {
+    padding-top: 20px;
+    font-style: italic;
+}
+th {
+    background-color:navy;
+    color: white;
+}
+
+h3 {
+     text-align: center;
+      color:#d41212;
+}
+
+td, th {
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
